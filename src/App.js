@@ -36,7 +36,7 @@ function App() {
 
   function update_form_btn() {
     if (registrationToggle) {
-      document.getElementById("form_btn").innerHTML = "Register";
+      document.getElementById("form_btn").innerHTML = "Register/ Sign up";
       setRegistrationToggle(false);
     } else {
       document.getElementById("form_btn").innerHTML = "Log in";
